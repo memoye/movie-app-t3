@@ -180,7 +180,7 @@ const Details = () => {
                         </div>
 
                         <div className="mt-12">
-                            <h2 className="text-white font-bold md:text-xl p-4 text-yellow-600">Cast</h2>
+                            <h2 className=" font-bold md:text-xl p-4 text-yellow-600">Cast</h2>
                             <div className="relative flex items-center group">
                                 <MdChevronLeft onClick={ () => {
                                     slideTo('left')
@@ -217,7 +217,7 @@ const Details = () => {
                                 className="bg-white right-2 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block" size={ 40 } />
                         </div>
                         <div className="mt-10">
-                            <h2 className="text-white font-bold md:text-xl p-4 text-yellow-600">Similar</h2>
+                            <h2 className=" font-bold md:text-xl p-4 text-yellow-600">Similar</h2>
                             <div className="relative flex items-center group">
                                 <MdChevronLeft onClick={ () => {
                                     slideTo('left')
